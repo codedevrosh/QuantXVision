@@ -213,8 +213,9 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 ##  Author
 
-Arockia Roshan  
+Arockia Roshan A  
 Machine Learning & Data Science Enthusiast
+
 
 
 
