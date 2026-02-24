@@ -9,6 +9,29 @@ An end-to-end machine learning system for predicting short-term and long-term pr
 ---
 
 ##  Project Description
+
+This project builds a comprehensive multi-stock forecasting framework designed to analyze and predict stock price behavior using historical market data from 2010 to 2025.
+
+The system integrates:
+
+- **LSTM** for short-term next-day prediction  
+- **Prophet** for long-term trend forecasting  
+- **Random Forest** for feature-based regression  
+- **ARIMA** as a statistical benchmark  
+
+Unlike single-model stock prediction projects, this system performs comparative model analysis and deploys the most effective approaches in a real-time web application.
+
+The final platform enables:
+
+- Short-term price forecasting  
+- Long-term trend projection  
+- Model performance comparison  
+- Interactive cloud deployment  
+
+---
+
+## Project Structure
+
 ```
 multi-stock-prediction/
 │
@@ -72,28 +95,6 @@ multi-stock-prediction/
 ├── README.md
 └── requirements.txt
 ```
-This project builds a comprehensive multi-stock forecasting framework designed to analyze and predict stock price behavior using historical market data from 2010 to 2025.
-
-The system integrates:
-
-- **LSTM** for short-term next-day prediction  
-- **Prophet** for long-term trend forecasting  
-- **Random Forest** for feature-based regression  
-- **ARIMA** as a statistical benchmark  
-
-Unlike single-model stock prediction projects, this system performs comparative model analysis and deploys the most effective approaches in a real-time web application.
-
-The final platform enables:
-
-- Short-term price forecasting  
-- Long-term trend projection  
-- Model performance comparison  
-- Interactive cloud deployment  
-
----
-
-## Project Structure
-
 The project follows a modular architecture to ensure scalability, maintainability, and separation between training and deployment.
 
 ---
