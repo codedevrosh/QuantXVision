@@ -1,4 +1,4 @@
-#  Multi-Stock Price Prediction & Forecasting Platform
+#  Multi-Stock Price Prediction and Analysis Using Machine Learning and Time-Series Forecasting
 
 An end-to-end machine learning system for predicting short-term and long-term price movements of Nifty 50 stocks using deep learning and time-series forecasting techniques.
 
@@ -215,6 +215,7 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 Arockia Roshan A  
 Machine Learning & Data Science Enthusiast
+
 
 
 
