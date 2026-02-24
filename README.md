@@ -1,14 +1,14 @@
-# 📊 Multi-Stock Price Prediction & Forecasting Platform
+#  Multi-Stock Price Prediction & Forecasting Platform
 
 An end-to-end machine learning system for predicting short-term and long-term price movements of Nifty 50 stocks using deep learning and time-series forecasting techniques.
 
-🔗 **Live Demo:** _Add Hugging Face Link Here_  
-🧠 **Models Used:** LSTM • Prophet • Random Forest • ARIMA  
-☁️ **Deployment:** Streamlit + Hugging Face Spaces  
+ **Live Demo:** _Add Hugging Face Link Here_  
+ **Models Used:** LSTM • Prophet • Random Forest • ARIMA  
+ **Deployment:** Streamlit + Hugging Face Spaces  
 
 ---
 
-## 📌 Project Description
+##  Project Description
 
 This project builds a comprehensive multi-stock forecasting framework designed to analyze and predict stock price behavior using historical market data from 2010 to 2025.
 
@@ -23,10 +23,10 @@ Unlike single-model stock prediction projects, this system performs comparative 
 
 The final platform enables:
 
-- 📈 Short-term price forecasting  
-- 📊 Long-term trend projection  
-- 📉 Model performance comparison  
-- 🌐 Interactive cloud deployment  
+- Short-term price forecasting  
+- Long-term trend projection  
+- Model performance comparison  
+- Interactive cloud deployment  
 
 ---
 
@@ -61,18 +61,18 @@ The project follows a modular architecture to ensure scalability, maintainabilit
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-### 1️⃣ Data Collection
+### Data Collection
 Historical stock price data is collected using the `yfinance` library for Nifty 50 stocks (2010–2025).
 
-### 2️⃣ Data Preprocessing
+### Data Preprocessing
 - Cleaning & validation  
 - Datetime conversion  
 - Sorting by stock & date  
 - Missing value handling  
 
-### 3️⃣ Feature Engineering
+### Feature Engineering
 Technical indicators generated:
 
 - SMA (20 & 50 day)
@@ -80,7 +80,7 @@ Technical indicators generated:
 - Rolling Volatility (20 day)
 - Daily Returns
 
-### 4️⃣ Model Training
+### Model Training
 
 **LSTM (Short-Term Forecasting)**
 - 60-day lookback window
@@ -103,7 +103,7 @@ Technical indicators generated:
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model | RMSE | MAE |
 |--------|------|------|
@@ -115,7 +115,7 @@ LSTM significantly outperformed classical statistical models for short-term fore
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - Models are serialized after training
 - Loaded dynamically in Streamlit app
@@ -127,7 +127,7 @@ This demonstrates a complete machine learning lifecycle from data engineering to
 
 ---
 
-## ⚠ Limitations
+## Limitations
 
 - Uses historical price data only
 - No sentiment or macroeconomic signals
@@ -136,7 +136,7 @@ This demonstrates a complete machine learning lifecycle from data engineering to
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Integrate financial news sentiment analysis
 - Add macroeconomic indicators
@@ -146,7 +146,8 @@ This demonstrates a complete machine learning lifecycle from data engineering to
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
