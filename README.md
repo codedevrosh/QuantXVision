@@ -11,75 +11,65 @@ An end-to-end machine learning system for predicting short-term and long-term pr
 ##  Project Description
 multi-stock-prediction/
 │
-├── app/ # Streamlit web application (production layer)
+├── app/
 │ ├── analytics/
-│ │ └── indicators.py # Technical indicator logic for dashboard analytics
-│ │
+│ │ └── indicators.py
 │ ├── components/
-│ │ └── metric_card.py # Reusable UI metric display component
-│ │
+│ │ └── metric_card.py
 │ ├── core/
-│ │ ├── config.py # App-level configuration settings
-│ │ └── styles.py # Custom UI styling definitions
-│ │
+│ │ ├── config.py
+│ │ └── styles.py
 │ ├── data/
-│ │ └── loader.py # Loads processed data for app usage
-│ │
+│ │ └── loader.py
 │ ├── models/
-│ │ ├── lstm_service.py # LSTM inference service for short-term prediction
-│ │ └── prophet_service.py # Prophet inference service for long-term forecasting
-│ │
+│ │ ├── lstm_service.py
+│ │ └── prophet_service.py
 │ ├── pages/
-│ │ ├── 1_Dashboard.py # Main overview dashboard
-│ │ ├── 2_Market_Analysis.py # Market trend & analytics page
-│ │ └── 3_Prediction.py # Stock prediction interface
-│ │
+│ │ ├── 1_Dashboard.py
+│ │ ├── 2_Market_Analysis.py
+│ │ └── 3_Prediction.py
 │ ├── utils/
-│ │ └── stock_utils.py # Helper functions for stock processing
-│ │
-│ └── Home.py # Application landing page
+│ │ └── stock_utils.py
+│ └── Home.py
 │
 ├── config/
-│ └── config.yaml # Global project configuration file
+│ └── config.yaml
 │
 ├── data/
 │ ├── raw/
-│ │ └── nifty50_all_stock_data.csv # Raw downloaded stock dataset
-│ │
+│ │ └── nifty50_all_stock_data.csv
 │ └── processed/
-│ ├── nifty50_processed.csv # Cleaned OHLCV dataset
-│ └── nifty50_technical.csv # Feature-engineered dataset with indicators
+│ ├── nifty50_processed.csv
+│ └── nifty50_technical.csv
 │
 ├── models/
-│ ├── lstm/ # Saved trained LSTM models + scalers
-│ ├── prophet/ # Saved Prophet models
-│ ├── rf/ # Saved Random Forest models
-│ └── arima_RELIANCE.NS.pkl # Trained ARIMA model for Reliance
+│ ├── lstm/
+│ ├── prophet/
+│ ├── rf/
+│ └── arima_RELIANCE.NS.pkl
 │
-├── notebooks/ # Research & experimentation notebooks
-│ ├── arima_model.ipynb # ARIMA modeling notebook
-│ ├── data_preprocessing.ipynb # Data cleaning & preprocessing notebook
-│ ├── lstm_model.ipynb # LSTM training notebook
-│ ├── prophet_model.ipynb # Prophet training notebook
-│ ├── rf_model.ipynb # Random Forest modeling notebook
-│ └── technical_features.ipynb # Feature engineering notebook
+├── notebooks/
+│ ├── arima_model.ipynb
+│ ├── data_preprocessing.ipynb
+│ ├── lstm_model.ipynb
+│ ├── prophet_model.ipynb
+│ ├── rf_model.ipynb
+│ └── technical_features.ipynb
 │
-├── src/ # Core training & pipeline logic
+├── src/
 │ ├── models/
 │ │ └── classical/
-│ │ └── arima_model.py # ARIMA statistical model implementation
-│ │
-│ ├── init.py # Package initializer
-│ ├── data_loader.py # Centralized data loading utility
-│ ├── features.py # Technical feature computation logic
-│ ├── preprocess_data.py # Data cleaning & validation script
-│ ├── train_lstm_model.py # LSTM training pipeline
-│ ├── train_prophet_model.py # Prophet training pipeline
-│ └── train_rf_model.py # Random Forest training pipeline
+│ │ └── arima_model.py
+│ ├── data_loader.py
+│ ├── features.py
+│ ├── preprocess_data.py
+│ ├── train_lstm_model.py
+│ ├── train_prophet_model.py
+│ └── train_rf_model.py
 │
-├── Project_Report.docx # Full project documentation
-├── README.md # Project overview documentation
-└── requirements.txt # Python dependencies
+├── Project_Report.docx
+├── README.md
+└── requirements.txt
 
 This project builds a comprehensive multi-stock forecasting framework designed to analyze and predict stock price behavior using historical market data from 2010 to 2025.
 
@@ -216,6 +206,7 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
 
 
