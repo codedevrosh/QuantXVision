@@ -9,6 +9,77 @@ An end-to-end machine learning system for predicting short-term and long-term pr
 ---
 
 ##  Project Description
+multi-stock-prediction/
+│
+├── app/ # Streamlit web application (production layer)
+│ ├── analytics/
+│ │ └── indicators.py # Technical indicator logic for dashboard analytics
+│ │
+│ ├── components/
+│ │ └── metric_card.py # Reusable UI metric display component
+│ │
+│ ├── core/
+│ │ ├── config.py # App-level configuration settings
+│ │ └── styles.py # Custom UI styling definitions
+│ │
+│ ├── data/
+│ │ └── loader.py # Loads processed data for app usage
+│ │
+│ ├── models/
+│ │ ├── lstm_service.py # LSTM inference service for short-term prediction
+│ │ └── prophet_service.py # Prophet inference service for long-term forecasting
+│ │
+│ ├── pages/
+│ │ ├── 1_Dashboard.py # Main overview dashboard
+│ │ ├── 2_Market_Analysis.py # Market trend & analytics page
+│ │ └── 3_Prediction.py # Stock prediction interface
+│ │
+│ ├── utils/
+│ │ └── stock_utils.py # Helper functions for stock processing
+│ │
+│ └── Home.py # Application landing page
+│
+├── config/
+│ └── config.yaml # Global project configuration file
+│
+├── data/
+│ ├── raw/
+│ │ └── nifty50_all_stock_data.csv # Raw downloaded stock dataset
+│ │
+│ └── processed/
+│ ├── nifty50_processed.csv # Cleaned OHLCV dataset
+│ └── nifty50_technical.csv # Feature-engineered dataset with indicators
+│
+├── models/
+│ ├── lstm/ # Saved trained LSTM models + scalers
+│ ├── prophet/ # Saved Prophet models
+│ ├── rf/ # Saved Random Forest models
+│ └── arima_RELIANCE.NS.pkl # Trained ARIMA model for Reliance
+│
+├── notebooks/ # Research & experimentation notebooks
+│ ├── arima_model.ipynb # ARIMA modeling notebook
+│ ├── data_preprocessing.ipynb # Data cleaning & preprocessing notebook
+│ ├── lstm_model.ipynb # LSTM training notebook
+│ ├── prophet_model.ipynb # Prophet training notebook
+│ ├── rf_model.ipynb # Random Forest modeling notebook
+│ └── technical_features.ipynb # Feature engineering notebook
+│
+├── src/ # Core training & pipeline logic
+│ ├── models/
+│ │ └── classical/
+│ │ └── arima_model.py # ARIMA statistical model implementation
+│ │
+│ ├── init.py # Package initializer
+│ ├── data_loader.py # Centralized data loading utility
+│ ├── features.py # Technical feature computation logic
+│ ├── preprocess_data.py # Data cleaning & validation script
+│ ├── train_lstm_model.py # LSTM training pipeline
+│ ├── train_prophet_model.py # Prophet training pipeline
+│ └── train_rf_model.py # Random Forest training pipeline
+│
+├── Project_Report.docx # Full project documentation
+├── README.md # Project overview documentation
+└── requirements.txt # Python dependencies
 
 This project builds a comprehensive multi-stock forecasting framework designed to analyze and predict stock price behavior using historical market data from 2010 to 2025.
 
@@ -145,6 +216,7 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
 
 
