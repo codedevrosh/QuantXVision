@@ -106,7 +106,7 @@ The project follows a modular architecture to ensure scalability, maintainabilit
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 ### Programming & Data Handling
 - Python
@@ -215,6 +215,7 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 Arockia Roshan A  
 Machine Learning & Data Science Enthusiast
+
 
 
 
