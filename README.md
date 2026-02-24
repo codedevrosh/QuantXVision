@@ -9,6 +9,7 @@ An end-to-end machine learning system for predicting short-term and long-term pr
 ---
 
 ##  Project Description
+```
 multi-stock-prediction/
 │
 ├── app/
@@ -70,7 +71,7 @@ multi-stock-prediction/
 ├── Project_Report.docx
 ├── README.md
 └── requirements.txt
-
+```
 This project builds a comprehensive multi-stock forecasting framework designed to analyze and predict stock price behavior using historical market data from 2010 to 2025.
 
 The system integrates:
@@ -206,6 +207,7 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
 
 
