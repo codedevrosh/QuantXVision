@@ -2,7 +2,7 @@
 
 An end-to-end machine learning system for predicting short-term and long-term price movements of Nifty 50 stocks using deep learning and time-series forecasting techniques.
 
- **Live Demo:** _Add Hugging Face Link Here_  
+ **Live Demo:** _https://huggingface.co/spaces/codedevrosh/QuantXVision_  
  **Models Used:** LSTM • Prophet • Random Forest • ARIMA  
  **Deployment:** Streamlit + Hugging Face Spaces  
 
@@ -138,5 +138,6 @@ This demonstrates a complete machine learning lifecycle from data engineering to
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
 
