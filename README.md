@@ -30,7 +30,7 @@ The final platform enables:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project follows a modular architecture to ensure scalability, maintainability, and separation between training and deployment.
 
@@ -103,18 +103,6 @@ Technical indicators generated:
 
 ---
 
-## Model Performance
-
-| Model | RMSE | MAE |
-|--------|------|------|
-| LSTM | 39.84 | 32.58 |
-| Random Forest | 176.03 | 123.17 |
-| ARIMA | 219.87 | 169.87 |
-
-LSTM significantly outperformed classical statistical models for short-term forecasting.
-
----
-
 ## Deployment
 
 - Models are serialized after training
@@ -150,4 +138,5 @@ This demonstrates a complete machine learning lifecycle from data engineering to
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
