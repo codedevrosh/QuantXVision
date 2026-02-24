@@ -35,65 +35,72 @@ The final platform enables:
 ```
 multi-stock-prediction/
 │
-├── app/
+├── app/ # Streamlit web application 
 │ ├── analytics/
-│ │ └── indicators.py
+│ │ └── indicators.py # Technical indicator logic for dashboard analytics
+│ │
 │ ├── components/
-│ │ └── metric_card.py
+│ │ └── metric_card.py # Reusable UI metric display component
+│ │
 │ ├── core/
-│ │ ├── config.py
-│ │ └── styles.py
+│ │ ├── config.py # App-level configuration settings
+│ │ └── styles.py # Custom UI styling definitions
+│ │
 │ ├── data/
-│ │ └── loader.py
+│ │ └── loader.py # Loads processed data for app usage
+│ │
 │ ├── models/
-│ │ ├── lstm_service.py
-│ │ └── prophet_service.py
+│ │ ├── lstm_service.py # LSTM inference service for short-term prediction
+│ │ └── prophet_service.py # Prophet inference service for long-term forecasting
+│ │
 │ ├── pages/
-│ │ ├── 1_Dashboard.py
-│ │ ├── 2_Market_Analysis.py
-│ │ └── 3_Prediction.py
+│ │ ├── 1_Dashboard.py # Main overview dashboard
+│ │ ├── 2_Market_Analysis.py # Market trend & analytics page
+│ │ └── 3_Prediction.py # Stock prediction interface
+│ │
 │ ├── utils/
-│ │ └── stock_utils.py
-│ └── Home.py
-│
-├── config/
-│ └── config.yaml
+│ │ └── stock_utils.py # Helper functions for stock processing
+│ │
+│ └── Home.py # Application landing page
 │
 ├── data/
 │ ├── raw/
-│ │ └── nifty50_all_stock_data.csv
+│ │ └── nifty50_all_stock_data.csv # Raw downloaded stock dataset
+│ │
 │ └── processed/
-│ ├── nifty50_processed.csv
-│ └── nifty50_technical.csv
+│ ├── nifty50_processed.csv # Cleaned OHLCV dataset
+│ └── nifty50_technical.csv # Feature-engineered dataset with indicators
 │
 ├── models/
-│ ├── lstm/
-│ ├── prophet/
-│ ├── rf/
-│ └── arima_RELIANCE.NS.pkl
+│ ├── lstm/ # Saved trained LSTM models + scalers
+│ ├── prophet/ # Saved Prophet models
+│ ├── rf/ # Saved Random Forest models
+│ └── arima_RELIANCE.NS.pkl # Trained ARIMA model for Reliance
 │
-├── notebooks/
-│ ├── arima_model.ipynb
-│ ├── data_preprocessing.ipynb
-│ ├── lstm_model.ipynb
-│ ├── prophet_model.ipynb
-│ ├── rf_model.ipynb
-│ └── technical_features.ipynb
+├── notebooks/ # Research & experimentation notebooks
+│ ├── arima_model.ipynb # ARIMA modeling notebook
+│ ├── data_preprocessing.ipynb # Data cleaning & preprocessing notebook
+│ ├── lstm_model.ipynb # LSTM training notebook
+│ ├── prophet_model.ipynb # Prophet training notebook
+│ ├── rf_model.ipynb # Random Forest modeling notebook
+│ └── technical_features.ipynb # Feature engineering notebook
 │
-├── src/
+├── src/ # Core training & pipeline logic
 │ ├── models/
 │ │ └── classical/
-│ │ └── arima_model.py
-│ ├── data_loader.py
-│ ├── features.py
-│ ├── preprocess_data.py
-│ ├── train_lstm_model.py
-│ ├── train_prophet_model.py
-│ └── train_rf_model.py
+│ │ └── arima_model.py # ARIMA statistical model implementation
+│ │
+│ ├── init.py # Package initializer
+│ ├── data_loader.py # Centralized data loading utility
+│ ├── features.py # Technical feature computation logic
+│ ├── preprocess_data.py # Data cleaning & validation script
+│ ├── train_lstm_model.py # LSTM training pipeline
+│ ├── train_prophet_model.py # Prophet training pipeline
+│ └── train_rf_model.py # Random Forest training pipeline
 │
-├── Project_Report.docx
-├── README.md
-└── requirements.txt
+├── Project_Report.docx # Full project documentation
+├── README.md # Project overview documentation
+└── requirements.txt # Python dependencies
 ```
 The project follows a modular architecture to ensure scalability, maintainability, and separation between training and deployment.
 
@@ -208,6 +215,7 @@ By integrating modeling, evaluation, and cloud deployment, this platform showcas
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
 
 
