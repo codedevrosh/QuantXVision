@@ -133,11 +133,19 @@ This demonstrates a complete machine learning lifecycle from data engineering to
 - Explore reinforcement learning trading models
 
 ---
+## Conclusion
+
+This project demonstrates a complete end-to-end stock forecasting system combining deep learning and classical time-series models. The comparative analysis confirms that LSTM significantly outperforms traditional statistical approaches for short-term prediction, while Prophet provides stable long-term trend forecasting. 
+
+By integrating modeling, evaluation, and cloud deployment, this platform showcases a practical and production-ready application of machine learning in financial time-series analysis.
+
+---
 
 ##  Author
 
 Arockia Roshan  
 Machine Learning & Data Science Enthusiast
+
 
 
 
